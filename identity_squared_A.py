@@ -43,5 +43,5 @@ class Formula(Scene):
         self.play(b_squared.animate.next_to(zero, RIGHT).shift(0.05*UP))
         self.wait(1.0)
         
-        self.play(FadeOut(zero), a_squared.animate.next_to(line_1.get_center(), LEFT, buff=0.4).shift(0.75*DOWN), b_squared.animate.next_to(a_squared.get_right(), RIGHT, buff=0.5))
+        self.play(FadeOut(zero), a_squared.animate.next_to(line_1.get_center(), LEFT, buff=0.4).shift(0.75*DOWN), b_squared.animate.next_to(a_squared.get_right(), RIGHT, buff=0.9))
         self.wait(5.0)
